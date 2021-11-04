@@ -6,6 +6,7 @@ const content = document.getElementById('main-content');
 
 document.getElementById('btn-search').addEventListener('click', function() {
 
+    
     let getQuery = document.getElementsByName("query")[0].value;
     getDataQuery( getQuery )
     
